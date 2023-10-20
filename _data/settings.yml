@@ -83,7 +83,7 @@ font_settings:
     medium_size: 40
     large_size: 45
     weight: 700
-    letter_spacing: -0.02
+    letter_spacing: 0
   menu:
     small_size: 30
     medium_size: 15
@@ -94,16 +94,16 @@ font_settings:
     size: 64
     size_small: 42
     weight: 700
-    letter_spacing: -1.5
-    letter_spacing_small: -1.2
+    letter_spacing: 0
+    letter_spacing_small: 0
     line_height: 72
     line_height_small: 48
   h2:
     size: 48
     size_small: 36
     weight: 700
-    letter_spacing: -1.6
-    letter_spacing_small: -1.04
+    letter_spacing: 0
+    letter_spacing_small: 0
     line_height: 56
     line_height_small: 44
   h3:
@@ -118,8 +118,8 @@ font_settings:
     size: 32
     size_small: 28
     weight: 700
-    letter_spacing: -1
-    letter_spacing_small: -0.6
+    letter_spacing: 0
+    letter_spacing_small: 0
     line_height: 36
   h5:
     small_size: 17
