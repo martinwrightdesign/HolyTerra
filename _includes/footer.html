@@ -3,7 +3,7 @@
 
 		{% if site.data.settings.footer_settings.logo_image %}
 		<a href="{{ site.baseurl }}" class="footer__logo" aria-label="Back to home page">
-			<img src="{{ site.data.settings.footer_settings.logo_image | relative_url }}" class="footer__logo__img" alt="Martin Wright Design">
+			<img src="{{ site.data.settings.footer_settings.logo_image | relative_url }}" class="footer__logo__img" alt="Holy Terra">
 		</a>
 		{% else %}
 		<a href="{{ site.baseurl }}" class="footer__title">
@@ -13,7 +13,7 @@
 
 		<div class="footer__copyright">
 			{% if site.data.settings.footer_settings.tagline %}
-			<p>{{ site.data.settings.footer_settings.tagline }}</p>
+			<h5>{{ site.data.settings.footer_settings.tagline }}</h5>
 			{% endif %}
 			<span class="footnote">© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
 			
