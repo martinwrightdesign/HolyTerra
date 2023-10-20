@@ -70,12 +70,12 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com">
+  font_embed: '<<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 '
-  title_font: 'Libre Caslon Text, serif'
-  body_font: 'Libre Caslon Text, serif'
+  title_font: 'UnifrakturMaguntia, serif'
+  body_font: 'Merriweather, serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
