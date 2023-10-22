@@ -42,6 +42,11 @@
 	{{ site.data.settings.font_settings.font_embed }}
 	{% endif %}
 
+	<!-- Include Tags -->
+	{% if site.tags != "" %}
+	{% include collecttags.html %}
+	{% endif %}
+
 	<!-- Styles -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="color-scheme" content="dark light">
