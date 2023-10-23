@@ -28,8 +28,8 @@ featured_image: images/social.jpg
 
 	<section class="listing">
 		<div class="wrap">
-			<h3>Latest Studies from Augustine</h3>
-
+			<h4>Latest Studies from Augustine</h4>
+			<br/>
 			{% for study in site.studies reversed limit: 3 %}
 
 			{% if study.accent_color %}{% capture accent_color %}{{ study.accent_color }}{% endcapture %}{% endif %}
