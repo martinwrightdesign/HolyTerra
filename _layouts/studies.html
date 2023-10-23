@@ -13,7 +13,7 @@ layout: default
 			<h2 class="post__subtitle subtitle--light">{{ page.subtitle }}</h2>
 		</div>
 
-		<img src="{{ 'images/projects/' | relative_url}}{{ page.featured_image }}" class="post__featured-image">
+		<img src="{{ 'images/studies/' | relative_url}}{{ page.featured_image }}" class="post__featured-image">
 
 	</header>
 
@@ -24,6 +24,17 @@ layout: default
 
 			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
 				{{ page.content }}
+				<div>
+					<hr>
+					<h6>Data catagorised as:</h6>
+					<br/>
+					<span>
+						{% for tag in page.tags %}
+						  {% capture tag_name %}{{ tag }}{% endcapture %}
+						  <a href="/tag/{{ tag_name }}"><span class="tag"><nobr>{{ tag_name }}</nobr></span>&nbsp;</a>
+						{% endfor %}
+					  </span>
+				</div>
 			</article>
 			
 		</div>
