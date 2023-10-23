@@ -10,7 +10,7 @@ gallery_images:
   - yourplacement2.jpg
 tags:
   - Inqusition
-  - Tenenbaum
+  - Tennenbaum
   - Militarum
   - Arakine
 ---
