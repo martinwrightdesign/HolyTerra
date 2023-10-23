@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="page-post">
+
+	<header class="post__header header--single">
+		
+		<div class="wrap">
+			<h1 class="post__title">{{ page.tag }}</h1>
+			<time class="post__date label">{{ page.date | date_to_long_string }}</time>
+		</div>
+
+
+	</header>
+
+	<section class="post-full">
+
+		<div class="wrap">
+
+			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+				<ul>
+                    {% for post in site.tags[page.tag] %}
+                      <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+                        {{ post.description }}
+                      </li>
+                    {% endfor %}
+                    </ul>
+			</article>
+
+			
+
+		</div>
+
+	</section>
+	
+
+</div>

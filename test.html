@@ -1,7 +1,7 @@
 ---
 layout: default
 overtitle: Despatched from Augustine
-title: Holy Terra
+title: Holy Terra test tho
 description: An infrequent collection of Marty Carcosa's hobby output, and repository for Augustine lore. 
 featured_image: images/social.jpg
 ---
@@ -29,24 +29,24 @@ featured_image: images/social.jpg
 	<section class="listing">
 		<div class="wrap">
 
-			{% for study in site.studies reversed limit: 3 %}
+			{% for index in site.studies reversed limit: 3 %}
 
-			{% if study.accent_color %}{% capture accent_color %}{{ study.accent_color }}{% endcapture %}{% endif %}
+			{% if index.accent_color %}{% capture accent_color %}{{ index.accent_color }}{% endcapture %}{% endif %}
 
 			<article class="project__preview">
-				<h3 class="project__title"><a href="{{ study.url | relative_url }}" style="--accent: {{ accent_color }}">{{ study.title }}</a></h3>
+				<h3 class="project__title"><a href="{{ index.url | relative_url }}" style="--accent: {{ accent_color }}">{{ index.title }}</a></h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
-					{% for image in study.gallery_images %}
-					<a href="{{ study.url | relative_url }}" aria-label="View Project Details"><img src="{{ 'images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
+					{% for image in index.gallery_images %}
+					<a href="{{ index.url | relative_url }}" aria-label="View Project Details"><img src="{{ 'images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
 					{% endfor %}
 				</div>
 
 				<div class="project__content grid" style="border-color: {{ accent_color }}">
-					<p class="project__subtitle subtitle--light">{{ study.subtitle }}</p>
+					<p class="project__subtitle subtitle--light">{{ index.subtitle }}</p>
 					<p class="project__description --small">
-						{{ study.description }}
-						<a href="{{ study.url | relative_url }}" class="project__link button--text --right"
+						{{ index.description }}
+						<a href="{{ index.url | relative_url }}" class="project__link button--text --right"
 							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Case Study</a>
 					</p>
 				</div>

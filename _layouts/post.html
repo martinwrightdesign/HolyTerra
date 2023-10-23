@@ -20,7 +20,19 @@ layout: default
 
 			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
 				{{ page.content }}
+				<div>
+					<hr>
+					<h6>Data catagorised as:</h6>
+					<br/>
+					<span>
+						{% for tag in page.tags %}
+						  {% capture tag_name %}{{ tag }}{% endcapture %}
+						  <a href="/tag/{{ tag_name }}"><span class="tag"><nobr>{{ tag_name }}</nobr></span>&nbsp;</a>
+						{% endfor %}
+					  </span>
+				</div>
 			</article>
+			
 
 			<div class="post__more grid">
 				{% if page.previous.url %}
@@ -34,13 +46,6 @@ layout: default
 		</div>
 
 	</section>
-	<section>
-		<span>[
-			{% for tag in page.tags %}
-			  {% capture tag_name %}{{ tag }}{% endcapture %}
-			  <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-			{% endfor %}
-		  ]</span>
-	</section>
+
 
 </div>

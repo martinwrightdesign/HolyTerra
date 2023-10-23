@@ -13,6 +13,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  studies:
+    output: true
+    permalink: /studies/:slug
 
 defaults:
   -
@@ -38,6 +41,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "studies"
+    values:
+      layout: "studies"
 
 markdown: kramdown
 highlighter: rouge

@@ -12,6 +12,8 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'studies'
+      url: 'studies'
 
 footer_settings:
   logo_image: images/martycarcosa.svg
@@ -183,6 +185,6 @@ font_settings:
 advanced_settings:
   ajax_loading: false
   analytics_code: ""
-  custom_styles: ""
+  custom_styles: ".tag {background: rgba(0,0,0,0.05); padding: .3rem; margin-top: 1rem;}"
   header_js: ""
   footer_js: ''
