@@ -3,19 +3,23 @@ title: Victor Algernon Tennenbaum
 subtitle: Inquisitor of the Augustine Malleus, formally Interrogator under Goriana Freemantle.
 date: 2023-09-29 10:00:00
 description: A noted Inquisitor within the sector, he was involved heavily in the pacification of the Walking Plague on Augustine Prime. Since this action rumours persist of his association with the more radical elements of the Augustine Malleus.
-featured_image: yourplacement1.jpg
+featured_image: tennenbaum1.jpeg
 accent_color: '#592e84'
 gallery_images:
-  - yourplacement1.jpg
-  - yourplacement2.jpg
+  - tennenbaum2.jpeg
 tags:
   - Inqusition
   - Tennenbaum
-  - Militarum
-  - Arakine
 ---
 
 **Inquisitor of the Augustine Malleus, formally Interrogator under Goriana Freemantle.**
+
+{% include post-components/gallery.html
+	columns = 2
+	full_width = true
+	images = "/images/studies/tennenbaum2.jpeg,/images/studies/tennenbaum-ooc.jpeg,
+	"
+%}
 
 ### Recovered from damaged volume CX/99834 Augustine Prime 
 See him as he walks the streets of his homeworld Gravenstadt. Pelted with rain he passes Flickermen, their holo-projectors glitching and stuttering, neon images reflected into multitudes by the puddling waters. He is young here, an heir, born of noble blood – albeit a line already tainted by my touch. Attired richly he walks with the swagger of confidence, he is destined for great things. Yet he will see his world come apart just weeks from now, he won’t see my hand. Not yet.
