@@ -3,17 +3,16 @@ title: Voignich
 subtitle: A blasphemous host, tightly bound and covertly in the employ of Tenenbaum. 
 date: 2023-09-29 10:00:00
 description: Bound not only in the chains you may see on other hosts, there are various devices of my own creation to contain it. Items of, or created from relics of holy significance.
-featured_image: voignich.jpg
+featured_image: voignich.jpeg
 accent_color: '#ff00ff'
 gallery_images:
-  - voignich.jpg
+  - voignich.jpeg
 tags:
   - Inqusition
-  - Tenenbaum
+  - Tennenbaum
   - Daemonhost
 ---
 
-**Founded with two ex-colleagues, I built a platform to match school students with available work experience placements in a way that mimicked the real job hunt process.**
 
 ### From the memoirs of Tenenbaum
 So far you have met the more mundane of my retinue. Here I introduce to you Voignich. I understandably keep it out of view except in the direst of circumstance. The creation of one such as this is enough to spur my more puritan colleagues to brand me heretic, but how else am I to both practice my craft?
