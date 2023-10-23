@@ -28,13 +28,14 @@ featured_image: images/social.jpg
 
 	<section class="listing">
 		<div class="wrap">
+			<h3>Latest Studies from Augustine</h3>
 
 			{% for study in site.studies reversed limit: 3 %}
 
 			{% if study.accent_color %}{% capture accent_color %}{{ study.accent_color }}{% endcapture %}{% endif %}
 
 			<article class="project__preview">
-				<h3 class="project__title"><a href="{{ study.url | relative_url }}" style="--accent: {{ accent_color }}">{{ study.title }}</a></h3>
+				<h4 class="project__title"><a href="{{ study.url | relative_url }}" style="--accent: {{ accent_color }}">{{ study.title }}</a></h4>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in study.gallery_images %}
@@ -47,7 +48,7 @@ featured_image: images/social.jpg
 					<p class="project__description --small">
 						{{ study.description }}
 						<a href="{{ study.url | relative_url }}" class="project__link button--text --right"
-							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Case Study</a>
+							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Study</a>
 					</p>
 				</div>
 			</article>
