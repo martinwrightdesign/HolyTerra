@@ -112,7 +112,7 @@ font_settings:
     size: 40
     size_small: 30
     weight: 700
-    letter_spacing: -1.4
+    letter_spacing: 0
     letter_spacing_small: -0.54
     line_height: 48
     line_height_small: 36
@@ -152,7 +152,7 @@ font_settings:
     weight: 400
     letter_spacing: 0.04
     letter_spacing_small: 0
-    line_height: 28
+    line_height: 32
   p_small:
     size: 16
     size_small: 15
