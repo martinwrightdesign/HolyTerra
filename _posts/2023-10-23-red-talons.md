@@ -21,7 +21,7 @@ Is it because the post is blank?
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "\images/red-talons/red-talon-termie1.jpeg,images/red-talons/red-talon-termie2.jpeg,images/red-talons/red-talon-termie3.jpeg,images/red-talons/red-talon-termie4.jpeg,images/red-talons/red-talon-termie-wip.jpeg,
+	images = "images/red-talons/red-talon-termie1.jpeg,images/red-talons/red-talon-termie2.jpeg,images/red-talons/red-talon-termie3.jpeg,images/red-talons/red-talon-termie4.jpeg,images/red-talons/red-talon-termie-wip.jpeg,
 	"
 %}
 
