@@ -12,7 +12,7 @@ tags:
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "/images/red-talons/red-talon1.jpeg,/images/red-talons/red-talon2.jpeg,/images/red-talons/red-talon3.jpeg,/images/red-talons/red-talon4.jpeg,/images/red-talons/red-talon5.jpeg,
+	images = "{{ "images/red-talons/red-talon1.jpeg" | relative_url }},/images/red-talons/red-talon2.jpeg,/images/red-talons/red-talon3.jpeg,/images/red-talons/red-talon4.jpeg,/images/red-talons/red-talon5.jpeg,
 	"
 %}
 This website has gone through many iterations of itself, it has been both my portfolio and a fully fledged 'marketing' site for my freelancing. I've used it as a means to test new techniques and to validate approaches for clients, this time, and this new iteration is working the other way. 
