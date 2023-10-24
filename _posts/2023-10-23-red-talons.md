@@ -9,7 +9,7 @@ tags:
 - Adeptus Astartes
 ---
 
-Is it because the post is blank? 
+ 
 
 {% include post-components/gallery.html
 	columns = 2
