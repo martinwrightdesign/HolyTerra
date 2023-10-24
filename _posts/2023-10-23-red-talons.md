@@ -17,7 +17,7 @@ Is it because the post is blank?
 	images = "images/red-talons/red-talon1.jpeg,/images/red-talons/red-talon2.jpeg,/images/red-talons/red-talon3.jpeg,/images/red-talons/red-talon4.jpeg,/images/red-talons/red-talon5.jpeg,
 	"
 %}
-
+---
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
