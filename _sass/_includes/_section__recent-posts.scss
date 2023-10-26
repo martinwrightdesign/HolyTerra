@@ -11,6 +11,10 @@
 
   .recent-posts__header {
     margin-bottom: 40px;
+    color: #{$text-light-color};
+    h4 {
+      color: #{$text-light-color};
+    }
 
     .action {
       display: none;
@@ -19,6 +23,9 @@
     }
   }
 
+  .post__title, .project__description {
+    color: #{$text-light-color};
+  }
   .recent-posts__list {
     width: 100%;
     grid-template-columns: 1fr;
