@@ -3,10 +3,10 @@ title: Ibrahim Osman
 subtitle: Hailing from Arakine, that ill-fated world blasted to dust and salt, he is an marksman and tracker without equal.
 date: 2023-09-29 10:00:00
 description: Assigned first to Inquisition service and then later attached to my team in the wynds beneath the hives on Fafnir Halt, at the start of my career – when I still held the rank of Interrogator…
-featured_image: osman.jpeg
+featured_image: studies/osman.jpeg
 accent_color: '#592e84'
 gallery_images:
-  - osman.jpeg
+  - studies/osman.jpeg
 tags:
   - Inqusition
   - Tennenbaum
