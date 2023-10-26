@@ -26,7 +26,7 @@ featured_image: images/social.jpg
 	<section class="all-posts">
 		<div class="wrap">
 			<div class="posts__list grid">
-				{% for post in site.posts %}
+				{% for post in paginator.posts %}
 				{% if forloop.first == true %}
 				<article class="post post-new">
 					<div class="grid">
