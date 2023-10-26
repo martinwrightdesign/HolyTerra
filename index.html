@@ -71,4 +71,20 @@ featured_image: images/social.jpg
 	</section>
 
 	{% endif %}
+	<section class="recent-posts">
+		<div class="wrap grid">
+			<header class="recent-posts__header">
+				<h4>Recent Augustine Archive Updates</h4>
+				<a href="{{ '/blog' | relative_url }}" class="action button--text--accent --right">All Posts</a>
+			</header>
+
+			<div class="recent-posts__list grid">
+				{% for post in site.studies limit: 3 %}
+				{% include component__post-preview.html %}
+				{% endfor %}
+			</div>
+
+			<a href="{{ '/studies' | relative_url }}" class="action-bottom button--text--accent --right">All Posts</a>
+		</div>
+	</section>
 </div>
