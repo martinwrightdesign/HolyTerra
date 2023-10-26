@@ -107,15 +107,11 @@
 				<ul class="menu__list">
 					
 					<li class="menu__list__item">
-						<a href="/" class="menu__list__item__link button--text">Work</a>
+						<a href="/" class="menu__list__item__link button--text">Home</a>
 					</li>
 					
 					<li class="menu__list__item">
-						<a href="/blog/" class="menu__list__item__link button--text">Blog</a>
-					</li>
-					
-					<li class="menu__list__item">
-						<a href="/studies" class="menu__list__item__link button--text">studies</a>
+						<a href="/studies" class="menu__list__item__link button--text">Augustine</a>
 					</li>
 					
 					<li class="menu__cta">
@@ -292,56 +288,6 @@
 
 	<section class="listing">
 		<div class="wrap">
-
-			
-
-			
-
-			<article class="project__preview">
-				<h3 class="project__title"><a href="/project/your-placement-work-experience" style="--accent: #592e84">Matching students with work placements</a></h3>
-
-				<div class="project__images owl-carousel" style="--accent: #592e84">
-					
-					<a href="/project/your-placement-work-experience" aria-label="View Project Details"><img src="/images/projects/yourplacement1.jpg" alt="" class="project__image"></a>
-					
-					<a href="/project/your-placement-work-experience" aria-label="View Project Details"><img src="/images/projects/yourplacement2.jpg" alt="" class="project__image"></a>
-					
-				</div>
-
-				<div class="project__content grid" style="border-color: #592e84">
-					<p class="project__subtitle subtitle--light">Aiming to make the work experience process easier for everyone involved — Students, Educators and Businesses.</p>
-					<p class="project__description --small">
-						Founded with ex-colleagues, I built a platform to match school students with available work experience placements in a way that mimicked the real job hunt process.
-						<a href="/project/your-placement-work-experience" class="project__link button--text --right"
-							style="color: #592e84; --color-var: #592e84">View Case Study</a>
-					</p>
-				</div>
-			</article>
-
-			
-
-			
-
-			<article class="project__preview">
-				<h3 class="project__title"><a href="/project/your-placement-work-experience-2" style="--accent: #592e84">Matching students with work placements</a></h3>
-
-				<div class="project__images owl-carousel" style="--accent: #592e84">
-					
-					<a href="/project/your-placement-work-experience-2" aria-label="View Project Details"><img src="/images/projects/yourplacement1.jpg" alt="" class="project__image"></a>
-					
-					<a href="/project/your-placement-work-experience-2" aria-label="View Project Details"><img src="/images/projects/yourplacement2.jpg" alt="" class="project__image"></a>
-					
-				</div>
-
-				<div class="project__content grid" style="border-color: #592e84">
-					<p class="project__subtitle subtitle--light">Aiming to make the work experience process easier for everyone involved — Students, Educators and Businesses.</p>
-					<p class="project__description --small">
-						Founded with ex-colleagues, I built a platform to match school students with available work experience placements in a way that mimicked the real job hunt process.
-						<a href="/project/your-placement-work-experience-2" class="project__link button--text --right"
-							style="color: #592e84; --color-var: #592e84">View Case Study</a>
-					</p>
-				</div>
-			</article>
 
 			
 		</div>

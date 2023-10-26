@@ -1,0 +1,61 @@
+---
+layout: default
+overtitle: Despatches from Augustine
+title: Inloads
+description: Dramatis Personae & Scaena
+featured_image: images/social.jpg
+---
+
+<div class="page-home">
+
+	{% if site.data.settings.hero_settings.background_image %}
+	<img src="{{ site.data.settings.hero_settings.background_image | relative_url }}" class="hero__background" alt="" role="presentation" draggable="false">
+	{% endif %}
+
+	<section class="hero">
+		<div class="wrap grid">
+			<div class="title">
+				<p class="subtitle">{{ page.overtitle }}</p>
+				<h1>{{ page.title }}</h1>
+			</div>
+
+			<p class="intro subtitle--light">
+				{{ page.description }}
+				
+			</p>
+		</div>
+	</section>
+
+	<section class="listing">
+		<div class="wrap">
+			{% for study in site.studies reversed %}
+
+			{% if study.accent_color %}{% capture accent_color %}{{ study.accent_color }}{% endcapture %}{% endif %}
+
+			<article class="project__preview">
+				<h3 class="project__title"><a href="{{ study.url | relative_url }}" style="--accent: {{ accent_color }}">{{ study.title }}</a></h3>
+
+				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
+					{% for image in study.gallery_images %}
+					<a href="{{ study.url | relative_url }}" aria-label="View Project Details"><img src="{{ '/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
+					{% endfor %}
+				</div>
+
+				<div class="project__content grid" style="border-color: {{ accent_color }}">
+					<p class="project__subtitle subtitle--light">{{ study.subtitle }}</p>
+					<p class="project__description --small">
+						{{ study.description }}
+						<a href="{{ study.url | relative_url }}" class="project__link button--text --right"
+							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Study</a>
+					</p>
+				</div>
+			</article>
+
+			{% endfor %}
+		</div>
+	</section>
+
+
+
+
+</div>
