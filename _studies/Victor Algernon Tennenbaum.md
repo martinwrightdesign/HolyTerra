@@ -3,10 +3,10 @@ title: Victor Algernon Tennenbaum
 subtitle: Inquisitor of the Augustine Malleus, formally Interrogator under Goriana Freemantle.
 date: 2023-09-29 10:00:00
 description: A noted Inquisitor within the sector, he was involved heavily in the pacification of the Walking Plague on Augustine Prime. Since this action rumours persist of his association with the more radical elements of the Augustine Malleus.
-featured_image: tennenbaum1.jpeg
+featured_image: images/studies/tennenbaum1.jpeg
 accent_color: '#592e84'
 gallery_images:
-  - tennenbaum2.jpeg
+  - images/studies/tennenbaum2.jpeg
 tags:
   - Inqusition
   - Tennenbaum

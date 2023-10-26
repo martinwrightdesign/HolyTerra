@@ -3,10 +3,10 @@ title: Voignich
 subtitle: A blasphemous host, tightly bound and covertly in the employ of Tenenbaum. 
 date: 2023-09-29 10:00:00
 description: Bound not only in the chains you may see on other hosts, there are various devices of my own creation to contain it. Items of, or created from relics of holy significance.
-featured_image: voignich.jpeg
+featured_image: images/studies/voignich.jpeg
 accent_color: '#ff00ff'
 gallery_images:
-  - voignich.jpeg
+  - images/studies/voignich.jpeg
 tags:
   - Inqusition
   - Tennenbaum
