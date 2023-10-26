@@ -1,9 +1,9 @@
 <article class="post__card">
   <a href="{{ post.url | relative_url }}" class="post__link">
-    <div class="post__image" style="background-image: url({{ 'images/studies/' | relative_url}}{{ page.featured_image }})">
+    <div class="post__image" style="background-image: url({{ post.featured_image | relative_url }})">
     </div>
     <time class="post__date label--small">{{ post.date | date: "%B %d, %Y" }}</time>
     <h5 class="post__title subtitle">{{ post.title }}</h5>
-    <p class="project__description --small">{{ post.description }}</p>
+    <p class="project__description --small">{{ post.subtitle }}</p>
   </a>
 </article>
