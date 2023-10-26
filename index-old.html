@@ -1,0 +1,115 @@
+---
+layout: default
+overtitle: Despatched from Augustine
+title: Holy Terra
+description: An infrequent collection of Marty Carcosa's hobby output, and repository for Augustine lore. 
+featured_image: images/social.jpg
+---
+
+<div class="page-home">
+
+	{% if site.data.settings.hero_settings.background_image %}
+	<img src="{{ site.data.settings.hero_settings.background_image | relative_url }}" class="hero__background" alt="" role="presentation" draggable="false">
+	{% endif %}
+
+	<section class="hero">
+		<div class="wrap grid">
+			<div class="title">
+				<!--<p class="subtitle">{{ page.overtitle }}</p>-->
+				<h1>{{ page.title }}</h1>
+			</div>
+
+			<p class="intro subtitle--light">
+				{{ page.description }}
+				
+			</p>
+		</div>
+	</section>
+	<section class="all-posts recent-posts">
+		<div class="wrap">
+			<header class="recent-posts__header">
+				<h4 style="margin-bottom: 3rem;">Recent blog posts</h4>
+				<a href="{{ '/blog' | relative_url }}" class="action button--text--accent --right">All Posts</a>
+			</header>
+			<div class="posts__list grid">
+				{% for post in site.posts limit: 4 %}
+				{% if forloop.first == true %}
+				<article class="post post-new">
+					<div class="grid">
+						<a href="{{ post.url | relative_url }}">
+							<div class="post__image{% if paginator.page == 1 %} post__image--new{% endif %}"
+								style="background-image: url({{ post.featured_image | relative_url }})">
+							</div>
+						</a>
+
+						<div class="post__content-wrap">
+							<div class="post__content">
+								<time class="post__date label--small">{{ post.date | date: "%B %d, %Y" }}</time>
+								<h2 class="post__title h4"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+								<p class="post__subtitle">{{ post.subtitle }}</p>
+								<p class="post__description">{{ post.description }}</p>
+								<a href="{{ post.url | relative_url }}" class="post__link button--text--accent --right">Keep Reading</a>
+							</div>
+						</div>
+					</div>
+				</article>
+				{% else %}
+				{% include component__post-preview.html %}
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="listing">
+		<div class="wrap">
+			<h4 style="margin-bottom: 3rem;">Latest Studies from Augustine</h4>
+		
+			{% for study in site.studies reversed limit: 3 %}
+
+			{% if study.accent_color %}{% capture accent_color %}{{ study.accent_color }}{% endcapture %}{% endif %}
+
+			<article class="project__preview">
+				<h3 class="project__title"><a href="{{ study.url | relative_url }}" style="--accent: {{ accent_color }}">{{ study.title }}</a></h3>
+
+				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
+					{% for image in study.gallery_images %}
+					<a href="{{ study.url | relative_url }}" aria-label="View Project Details"><img src="{{ 'images/studies/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
+					{% endfor %}
+				</div>
+
+				<div class="project__content grid" style="border-color: {{ accent_color }}">
+					<p class="project__subtitle subtitle--light">{{ study.subtitle }}</p>
+					<p class="project__description --small">
+						{{ study.description }}
+						<a href="{{ study.url | relative_url }}" class="project__link button--text --right"
+							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Study</a>
+					</p>
+				</div>
+			</article>
+
+			{% endfor %}
+		</div>
+	</section>
+
+
+
+<!-- 	<section class="recent-posts">
+		<div class="wrap grid">
+			<header class="recent-posts__header">
+				<h4>Recent blog posts</h4>
+				<a href="{{ '/blog' | relative_url }}" class="action button--text--accent --right">All Posts</a>
+			</header>
+
+			<div class="recent-posts__list grid">
+				{% for post in site.posts limit: 3 %}
+				{% include component__post-preview.html %}
+				{% endfor %}
+			</div>
+
+			<a href="{{ '/blog' | relative_url }}" class="action-bottom button--text--accent --right">All Posts</a>
+		</div>
+	</section> -->
+
+	{% include section__about.html %}
+</div>

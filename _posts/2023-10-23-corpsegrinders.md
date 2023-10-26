@@ -1,5 +1,5 @@
 ---
-title: Corpse Grinder Cult - Necromunda gang
+title: The Gristlecrowned Corpse Grinder Cult - Necromunda
 date: 2023-10-23 00:00:00
 description: Mashing the worlds of Judge Dredd and Warhammer 40,000 together. 
 featured_image: 'images/corpsegrinder-cover.jpg'
