@@ -195,9 +195,12 @@ $baseurl: '{{ site.baseurl }}';
     background-size: cover;
     outline: 3px solid #{$text-light-color};
     outline-offset: -20px;
-    color: #{$text-light-color};
+    color: whitesmoke;
     padding: 3rem;
-    margin: 3rem;
+    margin: 3rem 0;
+    .cite {
+        color: whitesmoke;
+    }
 }
 .pullquote.full-width {
     width: calc(100vw - 60px);
