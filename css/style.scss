@@ -193,7 +193,13 @@ $baseurl: '{{ site.baseurl }}';
     background-color: #{$background-alt-color};
     background-image: url(/images/backgrounds/darknoise.png);
     background-size: cover;
-    outline: 5px solid #{$text-light-color};
+    outline: 3px solid #{$text-light-color};
     outline-offset: -20px;
     color: #{$text-light-color};
+    padding: 3rem;
+    margin: 3rem;
+}
+.pullquote.full-width {
+    width: calc(100vw - 60px);
+    max-width: 1140px;
 }
