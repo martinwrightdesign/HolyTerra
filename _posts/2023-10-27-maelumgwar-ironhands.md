@@ -12,8 +12,7 @@ tags:
 
  {% include post-components/pullquote.html
 	cite = Maelum Gwar
-	quote = "Ferrus is gone, and with him my obligation of stewardship. I cannot wait idle while all we have built is torn down. I will turn the keys I bear and unleash that which is in my keeping upon those who have sided with the Warmaster. They deserve no better than these horrors. I will become the architect of their end. The Sons of Ferrus will not be found wanting, we will not fall
-	"
+	quote = Ferrus is gone, and with him my obligation of stewardship. I cannot wait idle while all we have built is torn down. I will turn the keys I bear and unleash that which is in my keeping upon those who have sided with the Warmaster. They deserve no better than these horrors. I will become the architect of their end. The Sons of Ferrus will not be found wanting, we will not fall
 %}
 
 Gawr is a near mythical figure in the Xth, his name appears throughout the legion's history, often tied with Ferrus' nascent Tactical Dreadnaught armour programme - particularly the prototyping of the Gorgon pattern suits - and envoy missions to Mechanicum Forgeworlds.
