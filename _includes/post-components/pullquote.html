@@ -1,0 +1,16 @@
+{%- capture cite -%}
+	{%- if include.cite -%}
+		{{ include.cite }}
+	{%- else -%}
+		Unknown
+	{%- endif -%}
+{%- endcapture -%}
+
+<div class="pullquote">
+    <p class="quote">
+        {{ quote }}
+    </p>
+    <p class="cite">
+        {{ cite }}
+    </p>
+</div>
