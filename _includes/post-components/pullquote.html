@@ -5,12 +5,17 @@
 		Unknown
 	{%- endif -%}
 {%- endcapture -%}
-{%- capture quote -%}
+{%- capture quotecontent -%}
+{%- if include.quotecontent -%}
+		{{ include.quotecontent }}
+	{%- else -%}
+		Unknown
+	{%- endif -%}
 {%- endcapture -%}
 
 <div class="pullquote full-width">
     <p class="quote">
-        {{ quote }}
+        {{ quotecontent }}
     </p>
     <p class="cite">
         {{ cite }}
