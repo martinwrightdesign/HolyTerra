@@ -14,7 +14,7 @@ tags:
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "images/corpsegrinders-1.jpeg,images/corpsegrinders2.jpeg,images/corpsegrinders3.jpeg,images/images/corpsegrinders4.jpeg
+	images = "images/corpsegrinders-1.jpeg,images/corpsegrinders2.jpeg,images/corpsegrinders3.jpeg,images/corpsegrinders4.jpeg
 	"
 %}
 
