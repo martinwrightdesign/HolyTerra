@@ -6,7 +6,7 @@ featured_image: images/social.jpg
 permalink: /magic-cards/
 ---
 
-Created for personal use, so you don't have to risk your offical cards in day to day use. 
+Obviously unofficial. Created for personal use, so you don't have to risk your offical cards in day to day use. 
 
 Of course, you wouldn't want to spill a drink on them or something would you? That's why you'd use these, not because you couldn't get hold of the offical ones, obviously.
 
@@ -23,6 +23,9 @@ I'd recommend getting these printed by your friendly local printer with the foll
 
 ### Want to say thanks?
 No pressure, but I'd really appreciate it. A bunch of work went into this, but I did it for my gaming group, so I'm happy for others to make use too, but well hey, it's nice to be able get a coffee!
+
+Here are two ways to help:
+
 <div id="donate-button-container">
 <div id="donate-button"></div>
 <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
@@ -38,7 +41,7 @@ title:'PayPal - The safer, easier way to pay online!',
 }).render('#donate-button');
 </script>
 </div>
-
+<br/>
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="martycarcosa" data-color="#40DCA5" data-emoji="🤘"  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
 [Back Home](/)
