@@ -4,7 +4,7 @@ subtitle: Inquisitor of the Augustine Malleus, formally an Interrogator under Go
 date: 2023-09-29 10:00:00
 description: A noted Inquisitor within the sector, he was involved heavily in the pacification of the Walking Plague on Augustine Prime. Since this action rumours persist of his association with the more radical elements of the Augustine Malleus.
 featured_image: images/studies/tennenbaum1.jpeg
-accent_color: '#592e84'
+accent_color: '#212121'
 gallery_images:
   - images/studies/tennenbaum2.jpeg
 tags:
@@ -17,7 +17,7 @@ tags:
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "/images/studies/tennenbaum2.jpeg,/images/studies/tennenbaum-ooc.jpeg,
+	images = "/images/studies/tennenbaum2.jpeg,/images/studies/tennenbaum-ooc.jpeg
 	"
 %}
 

@@ -4,7 +4,7 @@ subtitle: Hailing from Arakine, that ill-fated world blasted to dust and salt, h
 date: 2023-09-29 10:00:00
 description: Assigned first to Inquisition service and then later attached to my team in the wynds beneath the hives on Fafnir Halt, at the start of my career – when I still held the rank of Interrogator…
 featured_image: images/studies/osman.jpeg
-accent_color: '#592e84'
+accent_color: '#212121'
 gallery_images:
   - images/studies/osman.jpeg
 tags:

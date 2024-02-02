@@ -4,7 +4,7 @@ subtitle: A blasphemous host, tightly bound and covertly in the employ of Tenenb
 date: 2023-09-29 10:00:00
 description: Bound not only in the chains you may see on other hosts, there are various devices of my own creation to contain it. Items of, or created from relics of holy significance.
 featured_image: images/studies/voignich.jpeg
-accent_color: '#ff00ff'
+accent_color: '#212121'
 gallery_images:
   - images/studies/voignich.jpeg
 tags:
