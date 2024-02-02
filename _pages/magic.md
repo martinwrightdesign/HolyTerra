@@ -21,6 +21,24 @@ I'd recommend getting these printed by your friendly local printer with the foll
 - Gloss laminate on both sides.
 - Round corner all corners.
 
+### Want to say thanks?
+No pressure, but I'd really appreciate it. A bunch of work went into this, but I did it for my gaming group, so I'm happy for others to make use too, but well hey, it's nice to be able get a coffee!
+<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'924JP2TJMAMWL',
+image: {
+src:'https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>
+
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="martycarcosa" data-color="#40DCA5" data-emoji="🤘"  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
 [Back Home](/)
