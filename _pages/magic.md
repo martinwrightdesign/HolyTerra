@@ -2,12 +2,11 @@
 title: Magic Cards for an Old World
 subtitle: Magic reference cards for your games in the old world.
 description: Back up cards for the magic in the old world, use these on your table rather than the offical ones
-featured_image: 'images/magic-cards-header.jpg'
+featured_image: 'magic-cards-header.jpg'
 permalink: /magic-cards/
 layout: project
 ---
 
-<img src="{{ page.featured_image | relative_url }}" class="post__featured-image">
 
 Obviously unofficial. Created for personal use, so you don't have to risk your offical cards in day to day use. 
 
@@ -57,4 +56,3 @@ title:'PayPal - The safer, easier way to pay online!',
 <br/>
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="martycarcosa" data-color="#40DCA5" data-emoji="🤘"  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
-[Back Home](/)
