@@ -6,6 +6,8 @@ featured_image: 'images/magic-cards-header.jpg'
 permalink: /magic-cards/
 ---
 
+<img src="{{ page.featured_image | relative_url }}" class="post__featured-image">
+
 Obviously unofficial. Created for personal use, so you don't have to risk your offical cards in day to day use. 
 
 Of course, you wouldn't want to spill a drink on them or something would you? That's why you'd use these, not because you couldn't get hold of the offical ones, obviously.
@@ -26,7 +28,7 @@ I'd recommend getting these printed by your friendly local printer with the foll
 {% include post-components/gallery.html
 	columns = 3
 	full_width = true
-	images = "images/magic-cards-1.jpg,images/magic-cards-2.jpg,images/magic-cards-3.jpg,images/magic-cards-4.jpg
+	images = "images/magic-cards-1.jpg,images/magic-cards-2.jpg,images/magic-cards-3.jpg
 	"
 %}
 
