@@ -4,7 +4,7 @@ subtitle: Magic reference cards for your games in the old world.
 description: Back up cards for the magic in the old world, use these on your table rather than the offical ones
 featured_image: 'images/magic-cards-header.jpg'
 permalink: /magic-cards/
-layout: default
+layout: project
 ---
 
 <img src="{{ page.featured_image | relative_url }}" class="post__featured-image">
