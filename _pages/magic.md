@@ -2,7 +2,7 @@
 title: Magic Cards for an Old World
 subtitle: Magic reference cards for your games in the old world.
 description: Back up cards for the magic in the old world, use these on your table rather than the offical ones
-featured_image: images/magic-cards-header.jpg
+featured_image: 'images/magic-cards-header.jpg'
 permalink: /magic-cards/
 ---
 
@@ -21,8 +21,10 @@ I'd recommend getting these printed by your friendly local printer with the foll
 - Gloss laminate on both sides.
 - Round corner all corners.
 
+<a class="button--fill" href="https://drive.google.com/drive/folders/1S12Chirg98QyUoPy2Uh47kNem4ilUyXq?usp=sharing">Download the files</a>
+
 {% include post-components/gallery.html
-	columns = 2
+	columns = 3
 	full_width = true
 	images = "images/magic-cards-1.jpg,images/magic-cards-2.jpg,images/magic-cards-3.jpg,images/magic-cards-4.jpg
 	"
