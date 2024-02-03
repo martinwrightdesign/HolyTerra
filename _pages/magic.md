@@ -12,8 +12,10 @@ Obviously unofficial. Created for personal use, so you don't have to risk your o
 
 Of course, you wouldn't want to spill a drink on them or something would you? That's why you'd use these, not because you couldn't get hold of the offical ones, obviously.
 
+These are made to be quick to read and reference, each magic set has a unique colour to easily identify them. 
+
 ### What's included?
-All the magic cards in the big blue book, the Ravening hordes and the good guys and then the PDF legend ones, with the exception of Skaven, Chaos Dwarves and Dark Elves. So a big fat set.
+All the magic cards in the big blue book, the Ravening hordes, the Forces of Fantasy and then the PDF legend ones; with the exception of Skaven, Chaos Dwarves and Dark Elves. So a big fat set.
 
 They're available in two formats, one for professional print shops (with trim marks & bleed), and one for your home printer. They're sized to fit into card sleeves for longevity. 
 
