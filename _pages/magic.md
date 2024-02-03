@@ -4,28 +4,12 @@ subtitle: Magic reference cards for your games in the old world.
 description: Back up cards for the magic in the old world, use these on your table rather than the offical ones
 featured_image: 'images/magic-cards-header.jpg'
 permalink: /magic-cards/
+layout: default
 ---
 
-<div class="page-home">
+<img src="{{ page.featured_image | relative_url }}" class="post__featured-image">
 
-	{% if site.data.settings.hero_settings.background_image %}
-	<img src="{{ site.data.settings.hero_settings.background_image | relative_url }}" class="hero__background" alt="" role="presentation" draggable="false">
-	{% endif %}
-
-	<section class="hero">
-		<div class="wrap grid">
-			<div class="title">
-				<p class="subtitle">{{ page.overtitle }}</p>
-				<h1>{{ page.title }}</h1>
-			</div>
-
-			<img src="{{ page.featured_image | relative_url }}" class="post__featured-image">
-		</div>
-	</section>
-
-	<section class="listing">
-		<div class="wrap">
-			Obviously unofficial. Created for personal use, so you don't have to risk your offical cards in day to day use. 
+Obviously unofficial. Created for personal use, so you don't have to risk your offical cards in day to day use. 
 
 Of course, you wouldn't want to spill a drink on them or something would you? That's why you'd use these, not because you couldn't get hold of the offical ones, obviously.
 
@@ -72,10 +56,5 @@ title:'PayPal - The safer, easier way to pay online!',
 </div>
 <br/>
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="martycarcosa" data-color="#40DCA5" data-emoji="🤘"  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
-		</div>
-	</section>
 
-
-
-
-</div>
+[Back Home](/)
